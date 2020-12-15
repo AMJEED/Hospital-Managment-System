@@ -16,11 +16,15 @@ import javax.swing.JOptionPane;
  */
 public class demo extends javax.swing.JFrame {
 
-    /**
-     * Creates new form login
-     */
-    Connection con = null;
-    Statement pst = null;
+     private javax.swing.JButton jButton1;
+    private javax.swing.JFrame jFrame1;
+   
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JTextField pass;
+    private javax.swing.JPanel password;
+    private javax.swing.JTextField user;
+    
    
     
             
@@ -75,11 +79,7 @@ public class demo extends javax.swing.JFrame {
 
         user.setToolTipText("");
         user.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        user.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                userActionPerformed(evt);
-            }
-        });
+    
 
         jLabel2.setFont(jLabel2.getFont().deriveFont(jLabel2.getFont().getStyle() & ~java.awt.Font.BOLD, jLabel2.getFont().getSize()+3));
         jLabel2.setText("Password");
@@ -92,11 +92,7 @@ public class demo extends javax.swing.JFrame {
         });
 
         pass.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        pass.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                passActionPerformed(evt);
-            }
-        });
+       
 
         javax.swing.GroupLayout passwordLayout = new javax.swing.GroupLayout(password);
         password.setLayout(passwordLayout);
@@ -150,6 +146,8 @@ public class demo extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         try {
+            Connection con = null;
+            Statement pst = null;
             String sql ="Select * FROM users ";
             con =DriverManager.getConnection("jdbc:mysql://localhost:3306/demo?zeroDateTimeBehavior=CONVERT_TO_NULL","root","rootpass");
            pst = con.createStatement();
@@ -196,13 +194,7 @@ public class demo extends javax.swing.JFrame {
         
     }                                        
 
-    private void userActionPerformed(java.awt.event.ActionEvent evt) {                                     
-        // TODO add your handling code here:
-    }                                    
-
-    private void passActionPerformed(java.awt.event.ActionEvent evt) {                                     
-        // TODO add your handling code here:
-    }                                    
+                                     
 
     /**
      * @param args the command line arguments
@@ -218,14 +210,5 @@ public class demo extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify                     
-    private javax.swing.JButton jButton1;
-    private javax.swing.JFrame jFrame1;
-   
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JTextField pass;
-    private javax.swing.JPanel password;
-    private javax.swing.JTextField user;
-    // End of variables declaration                   
+                      
 }
