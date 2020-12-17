@@ -1,0 +1,3 @@
+create database HMS;
+create table user(username VARCHAR(30), password VARCHAR(15));
+Insert INTO patients VALUES('1', 'Sandy', 20, 'Sukkur', 'F', '2')
