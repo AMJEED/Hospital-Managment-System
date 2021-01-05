@@ -26,7 +26,7 @@ Tools: XAMPP, Netbeans, JDK
 4): Open XAMPP control panel and then start Apache and MySQL. 
 5): Open your browser and search "http://localhost/phpmyadmin".
 6): Create a database named "hospital" and import the SQL file "sql_schema" given in the repository. 
-7): Click 'Run' button comiple and run your project in Netbeans.
+7): Open the main file in src/db_demo/NewJFrame and Click 'Run' button comiple and run your project in Netbeans.
 
 ## WORK DIVISION :
 NIMARTA DEVI -> GUI (Adding frontend components, gui swing components like guipanels ,guibuttons,guiframe,and action listener, jdbc).
