@@ -1,6 +1,12 @@
 # final_project_db
 Hospital managment system
 
+#TEAM MEMBERS:
+AQSA MAJEED (021-19-0014)
+Nimarta devi(021-19-00)
+
+
+
 Video Demo: 
 
 ## Prerequisites: 
@@ -21,3 +27,7 @@ Tools: XAMPP, Netbeans
 4): Open XAMPP control panel and then start Apache and MySQL 
 5): Open your browser and search "http://localhost/phpmyadmin" and import the SQL file given in the repository. 
 6): Click 'Run' button to your project in Netbeans.
+
+#WORK DIVISION :
+NIMARTA DEVI -> GUI (Adding frontend components ,gui swing components like guipanels ,guibuttons,guiframe,and action listener ).
+AQSA MAJEED  -> DATABASE(Mysql connectivity with database ,tables, queries,manipulation on data insertion,updation).
