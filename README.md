@@ -3,7 +3,7 @@ Hospital managment system
 
 ## TEAM MEMBERS:
 AQSA MAJEED (021-19-0014)
-Nimarta devi(021-19-00)
+Nimarta devi(021-19-0035)
 
 
 
