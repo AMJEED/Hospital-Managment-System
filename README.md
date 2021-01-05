@@ -5,7 +5,7 @@ Hospital managment system
 AQSA MAJEED (021-19-0014)
 Nimarta devi(021-19-0035)
 
-Video Demo: https://drive.google.com/file/d/1KXdlCBOhoYKqDs92_277t0UGpaFU_Elm/view?usp=sharing
+Video Demo: https://drive.google.com/file/d/13z3zcw6vp7XVfK0cQ1gggMvbbITcaqXV/view?usp=sharing
 
 ## Prerequisites: 
 1): JDK 
